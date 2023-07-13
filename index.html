@@ -4,20 +4,30 @@
     <title>Environmental Pollution - A Global Crisis</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <style>
-      #progress-bar {
+      #progress-bar-container {
         position: fixed;
         top: 0;
         left: 0;
         height: 5px;
-        width: 0%;
-        background-color: blue;
-        transition: width 0.3s;
+        width: 100%;
+        background-color: #ccc; 
         z-index: 9999;
       }
+
+      #progress-bar {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        transition: width 0.3s;
+      }
+
+
     </style>
   </head>
-  <body>
+<body>
+  <div id="progress-bar-container">
     <div id="progress-bar"></div>
+  </div>
 
     <header>
       <h1>Environmental Pollution - A Global Crisis</h1>
