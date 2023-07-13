@@ -1,4 +1,4 @@
-```markdown
+
 # Progress Bar
 
 A simple progress bar implementation in HTML, CSS, and JavaScript.
@@ -14,7 +14,7 @@ The progress bar is a visual element that fills up as the user scrolls down a pa
 - Easy to integrate into any web page.
 
 ## Usage
-
+```markdown
 1. Include the following HTML structure in your web page:
 
 ```html
